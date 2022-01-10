@@ -6,10 +6,11 @@
 + 最后更新日期：2020年6月23日
 
 + 安装方式：
-```bash
+```sh
 # 在线安装
 pkg in -y curl ; sh -c "$(curl -fsSL https://https://nibazshab.github.io/when/install.sh)"
-
+```
+```sh
 # 手动安装
 echo "deb [trusted=yes] https://https://nibazshab.github.io/when/sourc/ termux extras" >> $PREFIX/etc/apt/sources.list ; pkg in when
 ```
