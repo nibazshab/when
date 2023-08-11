@@ -10,9 +10,9 @@
 
 ```sh
 # 在线安装
-pkg in -y curl ; sh -c "$(curl -fsSL https://https://nibazshab.github.io/when/install.sh)"
+pkg in -y curl ; sh -c "$(curl -fsSL https://nibazshab.github.io/when/install.sh)"
 ```
 ```sh
 # 手动安装
-echo "deb [trusted=yes] https://https://nibazshab.github.io/when/sourc/ termux extras" >> $PREFIX/etc/apt/sources.list ; pkg in when
+echo "deb [trusted=yes] https://nibazshab.github.io/when/sourc/ termux extras" >> $PREFIX/etc/apt/sources.list ; pkg in when
 ```
